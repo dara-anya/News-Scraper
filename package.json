@@ -1,0 +1,27 @@
+{
+  "name": "news-scrapper",
+  "version": "1.0.0",
+  "description": "News Scrapper is a web application that lets users view and leave comments on the latest news. This application uses Mongoose and Cheerio to scrape news from another site.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dara-anya/News-Scrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dara-anya/News-Scrapper/issues"
+  },
+  "homepage": "https://github.com/dara-anya/News-Scrapper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.5.1"
+  }
+}
